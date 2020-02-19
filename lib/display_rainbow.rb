@@ -1,5 +1,6 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors=['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'])
+color.sort
   puts "The first letter in the alphabet is: #{colors[0][0].to uppercase}"
   puts "The first letter in the alphabet is: #{colors[1][0].to uppercase}"
   puts "The first letter in the alphabet is: #{colors[2][0].to uppercase}"
